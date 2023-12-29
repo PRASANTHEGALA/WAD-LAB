@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {margin: 0; font-family: Arial, sans-serif;}
+        header, nav, section, footer {display: block; box-sizing: border-box;}
+        .container {max-width: 1200px; margin: 0 auto;}
+        header {background-color: #333; color: white; padding: 10px; text-align: center;}
+        nav {display: flex; background-color: #444; padding: 10px;}
+        nav a {color: white; text-decoration: none; padding: 10px; flex: 1; text-align: center;}
+        nav a:hover {background-color: #555;}
+        section {display: flex; flex-wrap: wrap; padding: 20px;}
+        .col {flex: 1; padding: 10px;}
+        #logo {max-width: 100%; height: auto;}
+        #services {display: flex; flex-direction: column;}
+        #services a {margin-bottom: 10px; color: #333; text-decoration: none;}
+        #frame {flex: 3; border: 1px solid #ccc; padding: 20px;}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>It All Starts Here</h1>
+        <img src="C:\Users\prash\Downloads\OIP.jpeg" alt="Logo" id="logo">
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#login">Login</a>
+        <a href="#registration">Registration</a>
+        <a href="#catalogue">Catalogue</a>
+        <a href="#cart">Cart</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section class="container">
+        <div class="col">
+            <div id="services">
+                <a href="#service1">Service 1</a>
+                <a href="#service2">Service 2</a>
+                <a href="#service3">Service 3</a>
+            </div>
+        </div>
+        <div id="frame">
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
